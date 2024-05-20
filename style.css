@@ -31,6 +31,7 @@ nav{
     background-color: #0a192f;
     z-index: 1000;
     align-items: center;
+    position: fixed;
 }
 
 .nav-logo{
@@ -84,7 +85,7 @@ nav{
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
 }
 
 /* .blur{
