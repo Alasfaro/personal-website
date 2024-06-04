@@ -25,7 +25,7 @@ link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
 
-const words = ["Software Engineer", "Student"];
+const words = ["Software Engineer", "Student", "Full-Stack Developer"];
 let i = 0;
 let counter;
 function typeNow() {
@@ -37,7 +37,7 @@ function typeNow() {
           deleteNow();
           return false;
        };
-       counter = setTimeout(loopTyping, 250);
+       counter = setTimeout(loopTyping, 200);
     };
     loopTyping();
  };
@@ -57,7 +57,7 @@ function typeNow() {
           typeNow();
           return false;
        };
-       counter = setTimeout(loopDeleting, 150);
+       counter = setTimeout(loopDeleting, 100);
     };
     loopDeleting();
  };
